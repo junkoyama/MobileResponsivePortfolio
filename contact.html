@@ -3,37 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--My JS scripts-->
+<link rel="stylesheet" href="script.js">
+
 <!--Bootstrap CSS Link-->
 <link rel="stylesheet"
 href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
 integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
 crossorigin="anonymous"
 >
+<!-- Material Design Bootstrap -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css"
+rel="stylesheet"
+/>
     <title>Contact </title>
+
 </head>
-<body>
-<!--Start Nav Bar-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">Junko Yamazaki</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-        <a class="nav-link" href="contact.html">Contact</a>
+
+    <!--Navbar-->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark scrolling-navbar night-fade-gradient">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <strong>JY</strong>
+        </a>
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent-7"
+            aria-controls="navbarSupportedContent-7"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="portfolio.html">Portfolio
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-</nav>
-<br>
-<main>
+    </nav>
+    <br>
+</header>
+
 <!--Start Contact Form-->
+<body>
 <section>
     <div class="container">   
       <div class="d-flex justify-content-center">
         <div class="card border-dark mb-3" style="width: 48rem;">
-            <div class="card-header"> <h3> Let's Connect! </h3> </div> 
+            <div class="card-header frozen-dreams-gradient"> <h3> Let's Connect! </h3> </div> 
 <br>
+          <div class="container"> 
             <form>
                 <div class="form-group">
                   <label for="exampleFormControlInput1">Full Name</label>
@@ -47,15 +78,15 @@ crossorigin="anonymous"
                   <label>Tell me a little about yourself :)</label>
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn night-fade-gradient">Submit</button>
             </form>
+          </div>
         </div>
       </div>
     </div>
 </section>
 <!--End Contact Form-->
 </main>
-
     <!-- Bootstrap jQuery, Popper.js, and Bootstrap JS link in this order added-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
             integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -69,5 +100,10 @@ crossorigin="anonymous"
             integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
             crossorigin="anonymous">
     </script>
+    <!-- MDB core JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"
+    ></script>
   </body>
 </html>
