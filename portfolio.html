@@ -1,82 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<!--Bootstrap CSS Link-->
-<link rel="stylesheet"
-href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-crossorigin="anonymous"
->
+    <!--My JS scripts-->
+    <link rel="stylesheet" href="script.js">
+
+    <!--Bootstrap CSS Link-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <!-- Material Design Bootstrap -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css"
+      rel="stylesheet"
+    />
     <title>Portfolio</title>
-</head>
+  </head>
+  
 <body>
-<!--Start Nav Bar-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">Junko Yamazaki</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-        <a class="nav-link" href="contact.html">Contact</a>
+<!--Start Nav-->
+<header>
+  <!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark scrolling-navbar night-fade-gradient">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <strong>JY</strong>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent-7"
+        aria-controls="navbarSupportedContent-7"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="portfolio.html">Portfolio
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
       </div>
     </div>
 </nav>
-<br>
-<main>
-<!--Added placedholder images with possible responsive links-->
-  <section>
-      <header class="header text-center">
-          <h3> My Portfolios</h3>
-      </header>
-      
-    <div class="container">
-     <div class="row justify-content-md-center">
-        <div class="col-6 col-md-4">
-            <a class="thumbnail" href="#"> </a>
-             <img src="./Assets/Images/placeholder-image.jpg" alt="placeholder photo">
+</header>
+
+  <!--Start card-->
+  <div class="container">
+    <h4 class="portfolio-header text-center">My Portfolio</h4>
+    <!--Grid Row-->
+    <div class="row row-cols-1 row-cols-md-2">
+    <!--Grid Column-->
+    <div class="col mb-4">
+    <!-- Card -->
+    <div class="card card-image"
+      style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
+      <!-- Content -->
+      <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+        <div>
+          <h5 class="purple-text"><i class="fas fa-chart-pie"></i> Homework</h5>
+          <h3 class="card-title pt-2"><strong>Horiseon Website</strong></h3>
+          <p class="text-center">The main objective to this assignment was to create a website that follows accessibility standards so that the site is optimized for search engines.</p>
+            <a class="btn night-fade-gradient" target="_blank" href="https://junkoyama.github.io/HoriseonWebsite/"><i class="fas fa-clone left"></i> View Deployed Link</a>
+            <a class="btn night-fade-gradient" target="_blank" href="https://github.com/junkoyama/HoriseonWebsite"><i class="fas fa-clone left"></i> View Github Repo</a>
+          </div>
         </div>
-        <div class="col-6 col-md-4">
-            <a class="thumbnail" href="#"> </a>
-            <img src="./Assets/Images/placeholder-image.jpg" alt="placeholder photo">
-        </div>
-        <div class="col-6 col-md-4">
-            <a class="thumbnail" href="#"></a>  
-            <img src="./Assets/Images/placeholder-image.jpg" alt="placeholder photo">
-        </div>
-        <div class="col-6 col-md-4">
-            <a class="thumbnail" href="#"></a>  
-            <img src="./Assets/Images/placeholder-image.jpg" alt="placeholder photo">
-        </div>
-        <div class="col-6 col-md-4">
-            <a class="thumbnail" href="#"></a>  
-            <img src="./Assets/Images/placeholder-image.jpg" alt="placeholder photo">
-        </div>
-        <div class="col-6 col-md-4">
-            <a class="thumbnail" href="#"></a>
-            <img src="./Assets/Images/placeholder-image.jpg" alt="placeholder photo">
-        </div>
-     </div>
+      </div>
+      <!-- Card -->
     </div>
-  </section>
-</main>
-  
-    <!-- Bootstrap jQuery, Popper.js, and Bootstrap JS link in this order added-->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    <div class="col mb-4">
+      <!-- Card -->
+      <div class="card card-image"
+        style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
+        <!-- Content -->
+        <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+          <div>
+            <h5 class="purple-text"><i class="fas fa-chart-pie"></i> Homework</h5>
+            <h3 class="card-title pt-2"><strong>Mobile Responsive Portfolio</strong></h3>
+            <p>Using HTML, Bootstrap and CSS Framework, I built a responsive website that both easy to use on both desktop and mobile.</p>
+              <a class="btn night-fade-gradient" target="_blank" href="https://junkoyama.github.io/MobileResponsivePortfolio/"><i class="fas fa-clone left"></i> View Deployed Link</a>
+              <a class="btn night-fade-gradient" target="_blank" href="https://github.com/junkoyama/MobileResponsivePortfolio"><i class="fas fa-clone left"></i> View Github Repo</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+      </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2">
+      <!--Grid Column-->
+      <div class="col mb-4">
+      <!-- Card -->
+      <div class="card card-image"
+        style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
+        <!-- Content -->
+        <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+          <div>
+            <h5 class="purple-text"><i class="fas fa-chart-pie"></i> Homework</h5>
+            <h3 class="card-title pt-2"><strong>Password Generator</strong></h3>
+            <p>Using HTML, CSS and Javascript and a modified starter code, I created an application that allows employees to generate random passwords based on criteria that is selected by the user.</p>
+              <a class="btn night-fade-gradient" target="_blank" href="https://junkoyama.github.io/PasswordGenerator-Javascript/"><i class="fas fa-clone left"></i> View Deployed Link</a>
+              <a class="btn night-fade-gradient" target="_blank" href="https://github.com/junkoyama/PasswordGenerator-Javascript"><i class="fas fa-clone left"></i> View Github Repo</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+      </div>
+      <div class="col mb-4">
+        <!-- Card -->
+        <div class="card card-image"
+          style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
+          <!-- Content -->
+          <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+            <div>
+              <h5 class="purple-text"><i class="fas fa-chart-pie"></i> Homework</h5>
+              <h3 class="card-title pt-2"><strong>Javascript Fundamentals Quiz</strong></h3>
+              <p>Using clean HTML, CSS and Javascript sheets, I created a timed mulitple choize question quiz that challenges users on their Javascript knowledge. Users earn 1 point for each correct answer.
+                Users lose 10 seconds off the timer clock for each incorrect answer. Once the timer reaches zero, they are given a form to submit their info if they would like to be placed on the high score board.
+              </p>
+                <a class="btn night-fade-gradient" target="_blank" href="https://junkoyama.github.io/Javascript-Fundamentals-Quiz/"><i class="fas fa-clone left"></i> View Deployed Link</a>
+                <a class="btn night-fade-gradient" target="_blank" href="https://github.com/junkoyama/Javascript-Fundamentals-Quiz"><i class="fas fa-clone left"></i> View Github Repo</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card -->
+        </div>
+      </div>
+
+      <div class="row">
+        <!--Grid Column-->
+        <div class="col align-items-center">
+        <!-- Card -->
+        <div class="card card-image"
+          style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
+          <!-- Content -->
+          <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+            <div>
+              <h5 class="purple-text"><i class="fas fa-chart-pie"></i> Group Project</h5>
+              <h3 class="card-title pt-2"><strong>Stay Yummy</strong></h3>
+              <p>Using HTML, CSS, Javascript, jQuery and APIs, my project group and I built a user-friendly website for travellers who want to find nice hotels and restaurants at their destination. 
+                We want travelers to have a simple website that can help them locate hotels and restaurants no matter where their adventure takes them. As developers, we designed and
+                roll out a website to provide eat and sleep options in a streamlined interface that doesn't bog the user down with too many options so they can get out there and explore.</p>
+                <a class="btn night-fade-gradient" target="_blank" href="https://arensalmela.github.io/TravelWebsite/"><i class="fas fa-clone left"></i> View Deployed Link</a>
+                <a class="btn night-fade-gradient" target="_blank" href="https://github.com/junkoyama/TravelWebsite"><i class="fas fa-clone left"></i> View Github Repo</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card -->
+        </div>
+        </div>
+        <br>
+  </div>
+</body>
+
+
+
+          <!-- Bootstrap jQuery, Popper.js, and Bootstrap JS link in this order added-->
+          <script
+            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
             integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            crossorigin="anonymous"
+          ></script>
+          <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
             integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-            crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            crossorigin="anonymous"
+          ></script>
+          <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
             integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-            crossorigin="anonymous">
-    </script>
+            crossorigin="anonymous"
+          ></script>
+          <!-- MDB core JavaScript -->
+          <script
+            type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"
+          ></script>
+          
+        </body>
+      </html>
+      
+    </main>
+
+    <!-- Bootstrap jQuery, Popper.js, and Bootstrap JS link in this order added-->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <!-- MDB core JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"
+    ></script>
+    
   </body>
 </html>
