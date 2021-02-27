@@ -7,7 +7,7 @@ Feel free to reach out if you have any questions or would like to chat.
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://www.linkedin.com/in/junkoyamazaki)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/junkoyamazaki)
 
-#### Skills
+#### My Skills
 ![Html5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
 ![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -21,11 +21,14 @@ Feel free to reach out if you have any questions or would like to chat.
 ![mongodb](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 
 
+</br>
 
-Deployed Link to Repository: https://junkoyama.github.io/MobileResponsivePortfolio/
+## Deployed Link to Portfolio [:top:](:wave: Hello there! My name is Junko.)
+https://junkoyama.github.io/MobileResponsivePortfolio/
 
-Final Result: ![Website GIF](./Assets/PortfolioGif.gif)
+</br>
 
-This homework taught me to challenge myself using different layouts, formatting and contents from Bootstrap. I created a navigation bar that directs viewers via navigation tabs to my 'About Me' on the home page, to 'My Portfolios' page on the Portfolio nav tab, and to my 'Contact' nav tab which allows users to enter their information with me via a form. The rows and column formatting is still challenging to me but I did enjoy creating a website that is more aesthetically pleasing than my first HTML website assignment.
+## Walkthrough of my Portfolio [:top:](:wave: Hello there! My name is Junko.)
+</br>
 
-This homework assignment was about teaching the class how to build responsive websites using Bootstrap and HTML, and how to design a web page that is both desktop and mobile friendly. 
+![Website GIF](./Assets/FinalGif022621.gif)
