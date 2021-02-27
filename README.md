@@ -23,12 +23,12 @@ Feel free to reach out if you have any questions or would like to chat.
 
 </br>
 
-## Deployed Link to Portfolio [:top:](:wave: Hello there! My name is Junko.)
+## Deployed Link to Portfolio [:top:](#:wave: Hello there! My name is Junko.)
 https://junkoyama.github.io/MobileResponsivePortfolio/
 
 </br>
 
-## Walkthrough of my Portfolio [:top:](:wave: Hello there! My name is Junko.)
+## Walkthrough of my Portfolio [:top:](#:wave: Hello there! My name is Junko.)
 </br>
 
 ![Website GIF](./Assets/FinalGif022621.gif)
