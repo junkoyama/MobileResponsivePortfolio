@@ -1,0 +1,53 @@
+/* Social media buttons styled from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  html,
+    body,
+    header,
+    .jarallax {
+      height: 700px;
+    }
+
+    @media (max-width: 740px) {
+      html,
+      body,
+      header,
+      .jarallax {
+        height: 100vh;
+      }
+    }
+
+     @media (min-width: 800px) and (max-width: 850px) {
+      html,
+      body,
+      header,
+      .jarallax {
+        height: 100vh;
+      }
+    }
+
+    @media (min-width: 560px) and (max-width: 660px) {
+      header .jarallax h5 {
+        display: none !important;
+      }
+    }
+
+    .page-footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+      margin: auto;
+    }
+
+    .bioParagraph {
+      margin-bottom: 3rem!important;
+    }
+    
